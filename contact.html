@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h2>My Contact Information</h2>
+    <p>Email Address: rickyli6937@gmail.com</p>
+    <p>Phone Number: 908-210-1457</p>
+    <!-- uses a form, everytime the user presses submit,
+  it directs them to a page to mail their message. -->
+    <form  action="mailto:rickyli6937@gmail.com" method = "post" enctype="text/plain">
+      <label>Your Name:</label>
+      <!-- this creates a textbox for the user to enter value -->
+      <input type ="text" name="yourName" value=""><br>
+      <label> Your Email: </label>
+      <input type = "email" name="yourEmail" value=""><br>
+      <label>Your Message: </label>
+      <textarea name ="yourMessage" rows="10" cols="30"></textarea><br>
+      <!-- this creates a submit button for the user -->
+      <input type = "submit" name="">
+    </form>
+    <hr>
+  </body>
+</html>
