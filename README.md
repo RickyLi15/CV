@@ -1,2 +1,2 @@
 # CV
-my personal site
+my resume website
